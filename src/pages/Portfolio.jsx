@@ -1,31 +1,41 @@
 function Portfolio() {
   return (
-    <div className="pt-24 px-6 max-w-7xl mx-auto">
+    <div className="pt-28 px-6 bg-gray-50 min-h-screen">
 
-      <h1 className="text-4xl font-bold text-center mb-12">
-        Our Portfolio
-      </h1>
+      <div className="max-w-7xl mx-auto">
+        <h1 className="text-4xl font-bold text-center mb-4">
+          Our Portfolio
+        </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <p className="text-center text-gray-600 mb-12">
+          Some of our recent successful projects.
+        </p>
 
-        {[1,2,3,4,5,6].map((item) => (
-          <div key={item} className="bg-white shadow-md rounded-lg overflow-hidden">
-            <img
-              src={`https://via.placeholder.com/400x250`}
-              alt="project"
-              className="w-full"
-            />
-            <div className="p-4">
-              <h3 className="font-semibold text-lg">
-                Project {item}
-              </h3>
-              <p className="text-gray-600 text-sm">
-                Description of the project goes here.
-              </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+          {[1,2,3,4,5,6].map((item) => (
+            <div
+              key={item}
+              className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300"
+            >
+              <img
+                src="https://via.placeholder.com/400x250"
+                alt="project"
+                className="w-full"
+              />
+
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">
+                  Project {item}
+                </h3>
+                <p className="text-gray-600 text-sm">
+                  A modern responsive website built for business growth.
+                </p>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
 
+        </div>
       </div>
     </div>
   );
