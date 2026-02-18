@@ -6,7 +6,7 @@ function Home() {
     <div className="pt-24">
 
       {/* Hero Section */}
-      <section className="bg-blue-600 text-black text-center py-20 px-6">
+      <section className="bg-blue-600 text-white text-center py-20 px-6">
         <h1 className="text-4xl md:text-6xl font-bold mb-6">
           We Build Modern Websites
         </h1>
