@@ -15,8 +15,8 @@ function Navbar() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6 font-medium">
-          <Link to="/" className="hover:text-blue-600">Home</Link>
-          <Link to="/about" className="hover:text-blue-600">About</Link>
+          <Link to="/" className="hover:text-black-500 hover:bg-white-500">Home</Link>
+          <Link to="/about" className="hover: text-black-600">About</Link>
           <Link to="/services" className="hover:text-blue-600">Services</Link>
           <Link to="/portfolio" className="hover:text-blue-600">Portfolio</Link>
           <Link to="/contact" className="hover:text-blue-600">Contact</Link>
