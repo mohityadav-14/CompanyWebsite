@@ -2,8 +2,8 @@ import usabilityImg from "../assets/usability.png";
 import companywebsite from  "../assets/companyweb.png";
 import prodash from  "../assets/prodash.png";
 import weather from  "../assets/weather.png";
-import  recipe from '../assets/racipefinder.png';
-import ecommerce from "../assets/ecommerce.png";
+import recipe from '../assets/racipefinder.png';
+import ecommerce from "../assets//ecommerce.png";
 
 function Portfolio() {
 let projects=[{
