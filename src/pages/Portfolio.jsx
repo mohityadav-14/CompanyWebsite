@@ -3,7 +3,7 @@ import companywebsite from  "../assets/companyweb.png";
 import prodash from  "../assets/prodash.png";
 import weather from  "../assets/weather.png";
 import  recipe from '../assets/racipefinder.png';
-import e-commerce from "../assets/Screenshot (21).png";
+import ecommerce from "../assets/ecommerce.png";
 
 function Portfolio() {
 let projects=[{
@@ -21,7 +21,7 @@ let projects=[{
 },{
   name:"E-Commeres Websites",
   description:"A pure vanilla javascript website with product listing by using map method, sorting, filtering, add to cart with dynamic quantity and total price with remove functionality. ",
-  image:e-commerce,
+  image:ecommerce,
 },
 {
   name:"Company Website",
