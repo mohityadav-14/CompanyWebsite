@@ -48,7 +48,7 @@ This project demonstrates a full-stack frontend development approach with modern
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/mohityadav-14/CompanyWebsite
    cd company-website
    ```
 

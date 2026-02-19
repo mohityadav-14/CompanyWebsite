@@ -1,7 +1,9 @@
 import usabilityImg from "../assets/usability.png";
-import companywebsite from  "../assets/companyweb.png"
-import prodash from  "../assets/prodash.png"
-import weather from  "../assets/weather.png"
+import companywebsite from  "../assets/companyweb.png";
+import prodash from  "../assets/prodash.png";
+import weather from  "../assets/weather.png";
+import  recipe from '../assets/racipefinder.png';
+import e-commerce from "../assets/Screenshot (21).png";
 
 function Portfolio() {
 let projects=[{
@@ -15,11 +17,11 @@ let projects=[{
 },{
   name:"RecipeFinder",
   description:"A React project designed to master the fundamentals of state management, list mapping, and conditional rendering. This app allows users to browse recipes, filter by category, and manage a real-time favorites collection.",
-  image:"src/assets/racipefinder.png",
+  image:recipe,
 },{
   name:"E-Commeres Websites",
   description:"A pure vanilla javascript website with product listing by using map method, sorting, filtering, add to cart with dynamic quantity and total price with remove functionality. ",
-  image:"src/assets/Screenshot (21).png"
+  image:e-commerce,
 },
 {
   name:"Company Website",
