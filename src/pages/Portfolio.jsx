@@ -1,12 +1,17 @@
+import usabilityImg from "../assets/usability.png";
+import companywebsite from  "../assets/companyweb.png"
+import prodash from  "../assets/prodash.png"
+import weather from  "../assets/weather.png"
+
 function Portfolio() {
 let projects=[{
   name:"ProDash",
   description:"It is a E-commerce website by React and tailwind CSS using Fakestore API with some functionalities like validation,loading,searching,filters,sorting, routing,contex API, Redux toolkit etc. ",
-  image:"src/assets/prodash.png"
+  image:prodash
 },{
   name:"Weather App",
   description:"A React App with tailwind CSS to showcase real weather data from api according to city, zip code and coordinates with 5 days forcast of wind speed, humidity, temperature with error handling",
-  image:"src/assets/weather.png",
+  image:weather,
 },{
   name:"RecipeFinder",
   description:"A React project designed to master the fundamentals of state management, list mapping, and conditional rendering. This app allows users to browse recipes, filter by category, and manage a real-time favorites collection.",
@@ -19,12 +24,12 @@ let projects=[{
 {
   name:"Company Website",
   description:"A responsive marketing website built using React.js and Tailwind CSS. A fully responsive multi-page marketing website using React.js with reusable components, proper SEO meta tags, and deployed it to Vercel.",
-  image:"src/assets/companyweb.png"
+  image:companywebsite
 
 },{
   name:"UsabilityHub",
   description:"A pixel-perfect clone of UsabilityHub's landing page built with pure HTML5 and CSS3. This project demonstrates advanced CSS techniques, responsive design principles, and modern layout systems without any frameworks. ",
-  image:"src/assets/usability.png"
+  image:usabilityImg
 }]
 
 
